@@ -4,6 +4,7 @@
 - [Active Directory](#what-is-active-directory)
 - [Lab Setup](#lab-setup)
 - [Active Directory Setup](#active-directory-setup)
+- [Organizational Units](#creating-organizational-units)
 
 ---
 ## Overview
@@ -85,8 +86,10 @@ Once completed, my computer restarted and installed all of the roles and functio
 
 <img width="974" height="699" alt="Active Directory Icons" src="https://github.com/user-attachments/assets/402d0011-64b6-4b75-8cf7-184a3000c96c" />
 
+---
+#### Creating Organizational Units
 
-
+Organizational Units (OUs) are container objects in Active Directory that allow you to organize different resources, including users, computers, and groups. This makes it easier to manage resources by allowing administrators to apply Group Policy Objects (GPOs) to specific sets of users or devices.
 
 
 
