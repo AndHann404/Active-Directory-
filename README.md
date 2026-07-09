@@ -13,6 +13,11 @@ This Homelab demonstrates the setup of a virtual Active Directory environment us
 The goal of this project is to create a fully functional AD environment, simulating a real-world IT environment where users, groups, and policies can be managed. 
 
 ---
+#### Project Synopsis
+
+
+
+---
 ## What is Active Directory
 
 Active Directory (AD) is Microsoft's directory service used to centrally manage users, computers, groups, security policies, and other network resources within a Windows domain environment. It provides administrators with a single location to authenticate users, control access to resources, enforce security policies, and simplify the management of enterprise networks.
@@ -91,10 +96,27 @@ Once completed, my computer restarted and installed all of the roles and functio
 
 Organizational Units (OUs) are container objects in Active Directory that allow you to organize different resources, including users, computers, and groups. This makes it easier to manage resources by allowing administrators to apply Group Policy Objects (GPOs) to specific sets of users or devices.
 
+<img width="715" height="528" alt="Creating OUs" src="https://github.com/user-attachments/assets/c1b1f525-8190-42a1-b087-131d1ebf2af7" />
+
+*Note: In this screenshot, I checked the box "protect container from accidental deletion" to give each container an added layer of protection.
+
+---
+# Creating Groups
+
+Groups in Active Directory is a collection of users or computer accounts managed as a single object. 
+
+They are catorgized by two types:
+
+* Security Groups: Used to assign permissions to shared resources (e.g., printers, files, folders).
+* Distribution Groups: Used exclusively for email distribution lists in Microsoft Exchange.
+
+<img width="749" height="527" alt="Group creation 1" src="https://github.com/user-attachments/assets/391b3d39-8874-4d74-8583-058810cba76c" />
+
+<img width="741" height="525" alt="Group Creation 2" src="https://github.com/user-attachments/assets/b95633d5-9684-40a4-a81b-90a32d4ee7eb" />
 
 
-
-
+---
+#### Creating Users
 
 
 
