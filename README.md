@@ -121,6 +121,7 @@ They are catorgized by two types:
 <img width="435" height="381" alt="Creating Users" src="https://github.com/user-attachments/assets/68519b42-73fa-4f6e-a46d-fde5be54d8c6" />
 
 
+
 <img width="446" height="386" alt="Creating User (PW)" src="https://github.com/user-attachments/assets/07068ef2-6da7-4bf1-ac06-0450e1b4ae7a" />
 
 
