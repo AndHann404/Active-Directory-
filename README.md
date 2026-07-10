@@ -5,6 +5,8 @@
 - [Lab Setup](#lab-setup)
 - [Active Directory Setup](#active-directory-setup)
 - [Organizational Units](#creating-organizational-units)
+- [Created Users](#creating-users)
+- [Group Policies](#creating-group-policies)
 
 ---
 ## Overview
@@ -121,15 +123,42 @@ They are catorgized by two types:
 <img width="435" height="381" alt="Creating Users" src="https://github.com/user-attachments/assets/68519b42-73fa-4f6e-a46d-fde5be54d8c6" />
 
 
-
 <img width="446" height="386" alt="Creating User (PW)" src="https://github.com/user-attachments/assets/07068ef2-6da7-4bf1-ac06-0450e1b4ae7a" />
 
 
+<img width="748" height="526" alt="created users list" src="https://github.com/user-attachments/assets/fda2bfbb-ae8e-4ccf-bf4c-8e0f45fcd70e" />
+
+---
+
+#### Creating Group Policies
+
+Group Policies are a centralized management feature in Active Directory that allows IT administrators to define, manage, and enforce security settings, desktop configurations, and software policies across users and computers within a domain. 
+
+This allows administrators to apply policies from a central location, ensuring consistency, improving security and reducing time to manage large environements.
+
+## There are two types fo Group Policy Configurations, Computer configutation and User configuration: 
+
+* Computer Configuration: A set of rules that apply ONLY to the computer, regardless of the user who logs in.
+
+* User Configuraton: A set of rules that applies to the user, meaning that any time they log in; the system will push those set rules.
 
 
 
+## There is also two types of Group Policy Settings, Policies and Preferences:
+
+* Policies: Settings that are enforced by Active Directroy and cannot be changed by the user (ex: Password policies).
+
+* Preferences: Settings that can be set by default but can be changed by users (Ex: Mapped Network Drives).
 
 
+<img width="750" height="522" alt="Creating GPO" src="https://github.com/user-attachments/assets/bf0d048e-4aec-48b6-8703-f9ab2e70de93" />
+
+* In this screenshot I am creating a Password Policy
 
 
+<img width="773" height="558" alt="Editing GPO" src="https://github.com/user-attachments/assets/2972c086-2bd2-4828-b14c-5dd9ccd5f377" />
+
+Since this is gonna be a Password Policy, this rule had to be unchangable by the user and had to be applied for the computer 
+
+* This screenshot showcases the details of my password policies.
 
