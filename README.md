@@ -103,7 +103,7 @@ Organizational Units (OUs) are container objects in Active Directory that allow 
 *Note: In this screenshot, I checked the box "protect container from accidental deletion" to give each container an added layer of protection.
 
 ---
-# Creating Groups
+#### Creating Groups
 
 Groups in Active Directory is a collection of users or computer accounts managed as a single object. 
 
