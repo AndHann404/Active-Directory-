@@ -158,7 +158,7 @@ This allows administrators to apply policies from a central location, ensuring c
 
 <img width="773" height="558" alt="Editing GPO" src="https://github.com/user-attachments/assets/2972c086-2bd2-4828-b14c-5dd9ccd5f377" />
 
-Since this is gonna be a Password Policy, this rule had to be unchangable by the user and had to be applied for the computer 
+Since this is gonna be a Password Policy, this rule had to be unchangable by the user (Policy) and had to be applied for the computer (computer configuration).
 
 * This screenshot showcases the details of my password policies.
 
