@@ -204,16 +204,15 @@ Due to being a Mapped Drive, this rule can be altered by users (preference) and 
 
 # Then I had to implement the IP address of my Domain into my Windows 11 network connections/ethernet properties:
 
+<img width="797" height="743" alt="adding in IP address of Domain" src="https://github.com/user-attachments/assets/c868486f-b33e-46ee-bae2-c811dd639392" />
 
-<img width="797" height="743" alt="adding in IP address of Domain" src="https://github.com/user-attachments/assets/cc436a48-6a49-4683-8891-6885722d6381" />
 
 
 # Next, I checked to see if I could connect to the Domain via the command Line. Also checked if the DNS was working:
 
+<img width="1014" height="642" alt="Pinging Domain Controller " src="https://github.com/user-attachments/assets/24077014-0db3-45bf-85b5-8ac449cd02eb" />
 
-<img width="1014" height="642" alt="Pinging Domain Controller " src="https://github.com/user-attachments/assets/3af38d50-5bd0-4b50-9a26-36a0feee1670" />
-
-<img width="934" height="153" alt="Checking if DNS server works" src="https://github.com/user-attachments/assets/d042c4b1-7fd8-486a-828a-3b319e667035" />
+<img width="934" height="153" alt="Checking if DNS server works" src="https://github.com/user-attachments/assets/9abd6447-36e9-4a28-8e78-491b2a29acaf" />
 
 # Then I connected to the Domain:
 
