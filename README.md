@@ -180,6 +180,22 @@ Due to being a Mapped Drive, this rule can be altered by users (preference) and 
 
 ---
 
+#### Desktop Wallpaper Policy
+
+<img width="752" height="521" alt="Desktop Wallpaper Policy Creation" src="https://github.com/user-attachments/assets/ca7f13ca-4ba8-4bfd-ae1d-7d24dd791f99" />
+
+
+<img width="976" height="664" alt="Desktop Wallpaper Setup" src="https://github.com/user-attachments/assets/b5756520-ef88-4c6f-86ec-b7a3e795a110" />
+
+
+<img width="974" height="706" alt="Desktop Wallpaper Enabled" src="https://github.com/user-attachments/assets/8781767d-4757-4413-a12e-502e9189a47c" />
+
+* This is a rule that can't be modfified by user for its a Policy and the configuration is based on the User (user configuration)
+
+* For this Policy I had to first download a wallpaper from the internet, then insert the path into the policy.
+
+---
+
 ### Connecting To the Domain
 
 
