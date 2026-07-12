@@ -151,6 +151,9 @@ This allows administrators to apply policies from a central location, ensuring c
 * Preferences: Settings that can be set by default but can be changed by users (Ex: Mapped Network Drives).
 
 
+#### Password Policy
+
+
 <img width="750" height="522" alt="Creating GPO" src="https://github.com/user-attachments/assets/bf0d048e-4aec-48b6-8703-f9ab2e70de93" />
 
 * In this screenshot I am creating a Password Policy
@@ -161,6 +164,14 @@ This allows administrators to apply policies from a central location, ensuring c
 Since this is gonna be a Password Policy, this rule had to be unchangable by the user (Policy) and had to be applied for the computer (computer configuration).
 
 * This screenshot showcases the details of my password policies.
+
+---
+
+
+
+
+
+
 
 ---
 
