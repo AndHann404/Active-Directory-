@@ -153,7 +153,6 @@ This allows administrators to apply policies from a central location, ensuring c
 
 #### Password Policy
 
-
 <img width="750" height="522" alt="Creating GPO" src="https://github.com/user-attachments/assets/bf0d048e-4aec-48b6-8703-f9ab2e70de93" />
 
 * In this screenshot I am creating a Password Policy
@@ -161,17 +160,23 @@ This allows administrators to apply policies from a central location, ensuring c
 
 <img width="773" height="558" alt="Editing GPO" src="https://github.com/user-attachments/assets/2972c086-2bd2-4828-b14c-5dd9ccd5f377" />
 
-Since this is gonna be a Password Policy, this rule had to be unchangable by the user (Policy) and had to be applied for the computer (computer configuration).
+Due to being a Password Policy, this rule had to be unchangable by the user (Policy) and had to be applied for the computer (computer configuration).
 
 * This screenshot showcases the details of my password policies.
 
 ---
 
+#### Drive Mapping
+
+<img width="748" height="405" alt="Drive Mapping GPO" src="https://github.com/user-attachments/assets/c0e4484c-94c7-449a-aed2-4e442e2bf69a" />
 
 
+<img width="880" height="648" alt="Creation of Mapped Drive" src="https://github.com/user-attachments/assets/f23f24bf-eb81-47d9-a4d3-926190ad4251" />
 
 
+<img width="783" height="564" alt="Drive Mapping Editing" src="https://github.com/user-attachments/assets/014b70b9-787e-446a-a9f7-6b54a168da2f" />
 
+Due to being a Mapped Drive, this rule can be altered by users (preference) and had to be applied for the user (user configuration).
 
 ---
 
