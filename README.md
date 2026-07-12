@@ -7,6 +7,7 @@
 - [Organizational Units](#creating-organizational-units)
 - [Created Users](#creating-users)
 - [Group Policies](#creating-group-policies)
+- [Domain Connection](#connecting-to-my-domain)
 
 ---
 ## Overview
@@ -196,13 +197,12 @@ Due to being a Mapped Drive, this rule can be altered by users (preference) and 
 
 ---
 
-### Connecting To the Domain
+### Connecting to my Domain
 
-# Before trying to connect to a Domain, I need to set up a static IP address first on my Windows Server. I already did this during setup of AD.
+* Before trying to connect to a Domain, I need to set up a static IP address first on my Windows Server. I already did this during setup of AD.
 
 
-
-# Then I had to implement the IP address of my Domain into my Windows 11 network connections/ethernet properties:
+* Then I had to implement the IP address of my Domain into my Windows 11 network connections/ethernet properties:
 
 <img width="797" height="743" alt="adding in IP address of Domain" src="https://github.com/user-attachments/assets/c868486f-b33e-46ee-bae2-c811dd639392" />
 
@@ -227,6 +227,18 @@ Due to being a Mapped Drive, this rule can be altered by users (preference) and 
 
 
 <img width="408" height="239" alt="Success" src="https://github.com/user-attachments/assets/2bcc61ce-5644-44ff-be98-a1ea99c3f326" />
+
+
+#### Testing Domain
+
+# I Logged into one of my Users (Eddie Rockmore)
+
+<img width="751" height="541" alt="User im logging in As" src="https://github.com/user-attachments/assets/72ed094f-362f-4c57-919a-a19880ddf446" />
+
+
+<img width="1512" height="982" alt="Sucessful Log in" src="https://github.com/user-attachments/assets/1fc8510f-8b97-41e7-b4fb-7ef7c0df8bb5" />
+
+
 
 
 
