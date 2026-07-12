@@ -198,5 +198,49 @@ Due to being a Mapped Drive, this rule can be altered by users (preference) and 
 
 ### Connecting To the Domain
 
+# Before trying to connect to a Domain, I need to set up a static IP address first on my Windows Server. I already did this during setup of AD.
+
+
+
+# Then I had to implement the IP address of my Domain into my Windows 11 network connections/ethernet properties:
+
+
+<img width="797" height="743" alt="adding in IP address of Domain" src="https://github.com/user-attachments/assets/cc436a48-6a49-4683-8891-6885722d6381" />
+
+
+# Next, I checked to see if I could connect to the Domain via the command Line. Also checked if the DNS was working:
+
+
+<img width="1014" height="642" alt="Pinging Domain Controller " src="https://github.com/user-attachments/assets/3af38d50-5bd0-4b50-9a26-36a0feee1670" />
+
+<img width="934" height="153" alt="Checking if DNS server works" src="https://github.com/user-attachments/assets/d042c4b1-7fd8-486a-828a-3b319e667035" />
+
+# Then I connected to the Domain:
+
+* Control Panel > System and Security > Allow Remote Access > Computer Name > Change
+* Added my Domain name and credentials
+
+
+<img width="808" height="585" alt="Process of Joining the Domain" src="https://github.com/user-attachments/assets/42ee23c0-bfd8-468c-a3e1-8918dbe2f5d0" />
+
+
+<img width="811" height="410" alt="Process of Joining the Domain 2" src="https://github.com/user-attachments/assets/4f630080-ec85-455f-a825-dfb4b436724a" />
+
+
+<img width="408" height="239" alt="Success" src="https://github.com/user-attachments/assets/2bcc61ce-5644-44ff-be98-a1ea99c3f326" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
