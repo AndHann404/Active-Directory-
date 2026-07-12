@@ -231,7 +231,7 @@ Due to being a Mapped Drive, this rule can be altered by users (preference) and 
 
 #### Testing Domain
 
-# I Logged into one of my Users (Eddie Rockmore)
+I Logged into one of my Users (Eddie Rockmore)
 
 <img width="751" height="541" alt="User im logging in As" src="https://github.com/user-attachments/assets/72ed094f-362f-4c57-919a-a19880ddf446" />
 
