@@ -162,3 +162,9 @@ Since this is gonna be a Password Policy, this rule had to be unchangable by the
 
 * This screenshot showcases the details of my password policies.
 
+---
+
+### Connecting To the Domain
+
+
+
