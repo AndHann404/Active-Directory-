@@ -8,6 +8,7 @@
 - [Created Users](#creating-users)
 - [Group Policies](#creating-group-policies)
 - [Domain Connection](#connecting-to-my-domain)
+- [Applying GPOs](#applying-gpos)
 
 ---
 ## Overview
@@ -241,7 +242,7 @@ I Logged into one of my Users (Eddie Rockmore)
 
 ---
 
-### Applying GPOs 
+#### Applying GPOs 
 
 <img width="753" height="530" alt="Applied GPOs" src="https://github.com/user-attachments/assets/7531d47d-7b52-4994-9b88-4ade80085bb1" />
 
