@@ -244,6 +244,10 @@ I Logged into one of my Users (Eddie Rockmore)
 
 #### Applying GPOs 
 
+Restrict Control Panel Access
+
+- Configured a Group Policy Object (GPO) to restrict access to the Control Panel and Settings application for users. This policy prevents users from making unauthorized changes to system settings, helping maintain a standardized and secure workstation configuration across the domain.
+
 <img width="753" height="530" alt="Applied GPOs" src="https://github.com/user-attachments/assets/7531d47d-7b52-4994-9b88-4ade80085bb1" />
 
 * Adding the GPO's I created to the users (groups) in my Domain.
