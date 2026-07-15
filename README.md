@@ -272,7 +272,7 @@ Once applied, I tested my GPO (Restrict Control Panel) and it was sucessful:
 
 ---
 
-Account Lockout
+### Account Lockout
 
 In the Default Domain Policy, I configured the Account Lockout Policy to improve domain security. The following settings were applied:
 
