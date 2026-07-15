@@ -270,6 +270,30 @@ Once applied, I tested my GPO (Restrict Control Panel) and it was sucessful:
 
 <img width="1225" height="698" alt="GPO function" src="https://github.com/user-attachments/assets/267b0f0f-99ba-4a8c-b805-8c410923ee83" />
 
+---
+
+Account Lockout
+
+In the Default Domain Policy, I configured the Account Lockout Policy to improve domain security. The following settings were applied:
+
+* Account Lockout Threshold: 3 invalid logon attempts
+* Account Lockout Duration: 10 minutes
+* Reset Account Lockout Counter After: 10 minutes
+* Allow Administrator Account Lockout: Enabled
+
+These settings help protect against brute-force password attacks while still allowing users to regain access after a short lockout period.
+
+<img width="977" height="707" alt="Edited Default Domain Policy" src="https://github.com/user-attachments/assets/1ab30ff0-b4e9-43d6-86fc-88ecf0195d92" />
+
+<img width="1190" height="657" alt="Applying GPOs (Account Lockout) " src="https://github.com/user-attachments/assets/ca25d816-bc7b-4bc9-b6de-4697130d7140" />
+
+# Testing Account Lockout 
+
+https://github.com/user-attachments/assets/dd5fdd88-8cd7-4a3c-9862-b7fa2b0a356a
+
+
+
+
 
 
 
