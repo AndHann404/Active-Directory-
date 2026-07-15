@@ -155,6 +155,10 @@ This allows administrators to apply policies from a central location, ensuring c
 
 #### Password Policy
 
+Configured a Password Policy through Group Policy to strengthen domain account security. 
+
+* The policy enforces a minimum password length of 10 characters, requires passwords to meet complexity requirements, sets a minimum password age of 30 days, and a maximum password age of 90 days. These settings help reduce the risk of weak passwords and improve overall account security across the domain.
+
 <img width="750" height="522" alt="Creating GPO" src="https://github.com/user-attachments/assets/bf0d048e-4aec-48b6-8703-f9ab2e70de93" />
 
 * In this screenshot I am creating a Password Policy
