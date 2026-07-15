@@ -170,6 +170,8 @@ Due to being a Password Policy, this rule had to be unchangable by the user (Pol
 
 #### Drive Mapping
 
+Created a Group Policy Object (GPO) to automatically map a network drive for domain users upon login. Drive Mapping provides users with consistent access to shared network resources without requiring manual configuration, improving both accessibility and centralized management.
+
 <img width="748" height="405" alt="Drive Mapping GPO" src="https://github.com/user-attachments/assets/c0e4484c-94c7-449a-aed2-4e442e2bf69a" />
 
 
@@ -183,6 +185,8 @@ Due to being a Mapped Drive, this rule can be altered by users (preference) and 
 ---
 
 #### Desktop Wallpaper Policy
+
+Configured a Group Policy Object (GPO) to automatically apply a standardized desktop wallpaper for domain users. This demonstrates how Group Policy can be used to enforce a consistent desktop environment and maintain organizational branding across all domain-joined computers.
 
 <img width="752" height="521" alt="Desktop Wallpaper Policy Creation" src="https://github.com/user-attachments/assets/ca7f13ca-4ba8-4bfd-ae1d-7d24dd791f99" />
 
@@ -246,7 +250,7 @@ I Logged into one of my Users (Eddie Rockmore)
 
 Restrict Control Panel Access
 
-- Configured a Group Policy Object (GPO) to restrict access to the Control Panel and Settings application for users. This policy prevents users from making unauthorized changes to system settings, helping maintain a standardized and secure workstation configuration across the domain.
+Configured a Group Policy Object (GPO) to restrict access to the Control Panel and Settings application for users. This policy prevents users from making unauthorized changes to system settings, helping maintain a standardized and secure workstation configuration across the domain.
 
 <img width="753" height="530" alt="Applied GPOs" src="https://github.com/user-attachments/assets/7531d47d-7b52-4994-9b88-4ade80085bb1" />
 
