@@ -55,9 +55,9 @@ Windows Server 2025 Build 26404 ARM64: For setting up the Domain Controller
 
 Troubleshooting:
 
-I Had issue when booting up the VM: When it started to boot, it ended up failing due to not find an "Operating System" 
+I Had issue when booting up the VM: When it started to boot, it ended up failing due to not find an "Operating System".
 
-The Fix: fix I needed to select the ISO image I was using in VMware setting 
+The Fix: Selected the ISO image I was using in VMware setting.
 
 ---
 
