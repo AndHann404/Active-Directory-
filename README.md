@@ -229,7 +229,7 @@ Due to being a Mapped Drive, this rule can be altered by users (preference) and 
 <img width="408" height="239" alt="Success" src="https://github.com/user-attachments/assets/2bcc61ce-5644-44ff-be98-a1ea99c3f326" />
 
 
-#### Testing Domain
+### Testing Domain
 
 I Logged into one of my Users (Eddie Rockmore)
 
@@ -239,11 +239,35 @@ I Logged into one of my Users (Eddie Rockmore)
 <img width="1512" height="982" alt="Sucessful Log in" src="https://github.com/user-attachments/assets/1fc8510f-8b97-41e7-b4fb-7ef7c0df8bb5" />
 
 
+---
+
+### Applying GPOs 
+
+<img width="753" height="530" alt="Applied GPOs" src="https://github.com/user-attachments/assets/7531d47d-7b52-4994-9b88-4ade80085bb1" />
+
+* Adding the GPO's I created to the users (groups) in my Domain.
+
+---
+
+When I created my users, I also created multiple groups. I added some of my created users to these groups and used the Group Policy Management to Link the GPO (Restrict Control Panel) to the user OU.
+
+* Eddie Rockmore is apart of "IT-Brooklyn" Group
+
+<img width="752" height="527" alt="Groups" src="https://github.com/user-attachments/assets/973bd204-605c-494b-8cdd-810d4c6e424f" />
+
+<img width="976" height="707" alt="Group that user (eddie) is apart of" src="https://github.com/user-attachments/assets/3cea17fe-fdf4-44c6-999b-941adb886ef2" />
 
 
+---
+
+Once added, I implemented the command "gpupdate /force" to apply the Group Policy.
+
+<img width="1175" height="606" alt="Implementing GPO via command" src="https://github.com/user-attachments/assets/49908ae1-bf17-4033-bd1b-a26defd759ae" />
 
 
+Once applied, I tested my GPO (Restrict Control Panel) and it was sucessful:
 
+<img width="1225" height="698" alt="GPO function" src="https://github.com/user-attachments/assets/267b0f0f-99ba-4a8c-b805-8c410923ee83" />
 
 
 
