@@ -316,15 +316,15 @@ Two Types of Permissions:
 
 * Share: These are permissions that are set on the Folder Level ONLY. So the permissions aren't applied on the files or subfolders. 
 
-* NTFS: These are permissions that can be set for both File level and Folder level; incldiudng subfolders 
+* NTFS: These are permissions that can be set for both File level and Folder level; including subfolders 
 
 
+# Share Permissions
+
+<img width="358" height="454" alt="Shared Perms" src="https://github.com/user-attachments/assets/0d775e65-ac00-4418-b962-8b364b30a130" />
 
 
-
-
-
-
+# NTFS Permissions
 <img width="930" height="611" alt="FilesharesetupNTFS" src="https://github.com/user-attachments/assets/93f7fafe-2369-4288-adab-49a5d1d012f7" />
 
 
