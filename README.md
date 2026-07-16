@@ -307,13 +307,53 @@ https://github.com/user-attachments/assets/dd5fdd88-8cd7-4a3c-9862-b7fa2b0a356a
 
 --- 
 
-### Setting Up File Sharing/ Mapping Drives 
+### Setting Up File Sharing/ Mapping Network Drive / Network Drive GPO
+
+File sharing allows administrators to centrally manage access to shared folders across a domain using user accounts and security groups. Instead of assigning permissions to individual users, access is granted to Active Directory security groups, making permission management more efficient and scalable.
+
+
+Two Types of Permissions:
+
+* Share: These are permissions that are set on the Folder Level ONLY. So the permissions aren't applied on the files or subfolders. 
+
+* NTFS: These are permissions that can be set for both File level and Folder level; incldiudng subfolders 
+
+
+
+
+
+
+
+
+<img width="930" height="611" alt="FilesharesetupNTFS" src="https://github.com/user-attachments/assets/93f7fafe-2369-4288-adab-49a5d1d012f7" />
+
+
+
+
+
+Two Types of Sharing:
+
+Mapped: (Issue, the mapped netowrk drive won't stay if the system reboots), Best for temporary usage.
+
+Network:
+
+
+
+<img width="788" height="592" alt="Creation of Mapped Network Drive" src="https://github.com/user-attachments/assets/c11898ca-e3c5-4825-83ae-8b1aa30d29a1" />
+
+
+<img width="784" height="595" alt="Mapped Network Drive" src="https://github.com/user-attachments/assets/27bee46e-dd6a-4bbd-8cc5-81aea0c5263e" />
+
+
+<img width="785" height="590" alt="Mapped Network Drive No More" src="https://github.com/user-attachments/assets/4e040453-b3d1-4829-8d73-4142feb593fb" />
+
+
 
 
 ---
 #### Conclusion
 
-This Active Directory Home Lab provides a hands-on demonstration of creating and managing a virtualized AD environment, equipping me with foundational skills essential for an IT Help Desk role. By completing this Lab, I gained experience with user and group management, creating Group Policys and Group Policy enforcement, and network troubleshooting within a domain environment.
+This Active Directory Home Lab provides a hands-on demonstration of creating and managing a virtualized AD environment, equipping me with foundational skills essential for an IT Help Desk ot IT support role. By completing this Lab, I gained experience with user and group management, creating Group Policys,  Group Policy enforcement, and network troubleshooting within a domain environment.
 
 
 
