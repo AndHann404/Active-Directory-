@@ -41,6 +41,7 @@ Active Directory (AD) is Microsoft's directory service used to centrally manage 
 
 VMware Fusion: Installed and Configured
 Windows Server 2025 Build 26404 ARM64: For setting up the Domain Controller
+Windows 11 VM: For testing GPOs
 
 #### Setting up my VM
 
@@ -323,20 +324,18 @@ Two Types of Permissions:
 
 <img width="358" height="454" alt="Shared Perms" src="https://github.com/user-attachments/assets/0d775e65-ac00-4418-b962-8b364b30a130" />
 
+---
 
 # NTFS Permissions
 <img width="930" height="611" alt="FilesharesetupNTFS" src="https://github.com/user-attachments/assets/93f7fafe-2369-4288-adab-49a5d1d012f7" />
 
+---
 
+Two different Sharing Methods:
 
+A shortcut that connects a drive letter on a user's computer to an existing network share. 
 
-
-Two Types of Sharing:
-
-Mapped: (Issue, the mapped netowrk drive won't stay if the system reboots), Best for temporary usage.
-
-Network:
-
+* (With this method the network drive won't stay if the system reboots), best for temporary usage.
 
 
 <img width="788" height="592" alt="Creation of Mapped Network Drive" src="https://github.com/user-attachments/assets/c11898ca-e3c5-4825-83ae-8b1aa30d29a1" />
@@ -346,6 +345,27 @@ Network:
 
 
 <img width="785" height="590" alt="Mapped Network Drive No More" src="https://github.com/user-attachments/assets/4e040453-b3d1-4829-8d73-4142feb593fb" />
+
+---
+ 
+ A folder or device accessible to other computers over a network.
+
+
+<img width="399" height="488" alt="Network Shared drive Creation" src="https://github.com/user-attachments/assets/fa93917d-99e4-48e4-b8f9-754a3a82b2e5" />
+
+
+<img width="753" height="529" alt="Placing GPO (Network Shared Drive)" src="https://github.com/user-attachments/assets/801415ff-9cff-4a16-a0f9-686483972eed" />
+
+
+<img width="1180" height="616" alt="Screenshot 2026-07-16 at 4 52 39 PM" src="https://github.com/user-attachments/assets/909c62f2-b37b-4782-ad1e-67528cc8b047" />
+
+
+
+Before Testing I had to update the GPO with "gpupdate /force" and restart my computer. 
+
+Also, afterwards I had issue with the drive appearing, what I did was move my user to my users OU. Once I did that the drive appeared.
+
+<img width="786" height="579" alt="Network drive success" src="https://github.com/user-attachments/assets/62181b34-245e-4bcc-bcc3-045458de3b72" />
 
 
 
