@@ -65,15 +65,15 @@ The Fix: Selected the ISO image I was using in VMware setting.
 
 Adding Roles and Features 
 
+Choosing the roles and features needed for my Active Directory Environment (i.e Active Directory Domain Services, DNS server, Group Policy Management, etc).
+
+* Note: Not all are Necessary for AD to function, some roles/functions are optional.
+
 <img width="977" height="710" alt="Server Manager" src="https://github.com/user-attachments/assets/7203f9fb-8634-4e26-8568-050954ede7fb" />
 
 <img width="1017" height="803" alt="Add roles and features wizard" src="https://github.com/user-attachments/assets/9a80a287-d45e-4990-a5c3-d5971dabe4f6" />
 
 <img width="787" height="562" alt="Selected Services " src="https://github.com/user-attachments/assets/a82fb544-9328-4ada-8551-d6b3a3617367" />
-
-Choosing the roles and features needed for my Active Directory Environment (i.e Active Directory Domain Services, DNS server, Group Policy Management, etc)
-
-* Note: Not all are Necessary for AD to function, some roles/functioins are optional
 
 ---
 
