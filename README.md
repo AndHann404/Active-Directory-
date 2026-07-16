@@ -9,6 +9,7 @@
 - [Group Policies](#creating-group-policies)
 - [Domain Connection](#connecting-to-my-domain)
 - [Applying GPOs](#applying-gpos)
+- [Conclusion](#conclusion)
 
 ---
 ## Overview
@@ -302,6 +303,19 @@ These settings help protect against brute-force password attacks while still all
 # Testing Account Lockout 
 
 https://github.com/user-attachments/assets/dd5fdd88-8cd7-4a3c-9862-b7fa2b0a356a
+
+
+--- 
+
+### Setting Up File Sharing/ Mapping Drives 
+
+
+---
+#### Conclusion
+
+This Active Directory Home Lab provides a hands-on demonstration of creating and managing a virtualized AD environment, equipping me with foundational skills essential for an IT Help Desk role. By completing this Lab, I gained experience with user and group management, creating Group Policys and Group Policy enforcement, and network troubleshooting within a domain environment.
+
+
 
 
 
