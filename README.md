@@ -368,7 +368,11 @@ Also, afterwards I had issue with the drive appearing, what I did was move my us
 <img width="786" height="579" alt="Network drive success" src="https://github.com/user-attachments/assets/62181b34-245e-4bcc-bcc3-045458de3b72" />
 
 
+# User Right Assignment 
 
+For this GPO, I am either assiging and/or restricting users rights to enhance security. 
+
+This is based of role 
 
 ---
 #### Conclusion
