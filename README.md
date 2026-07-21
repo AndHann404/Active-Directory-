@@ -44,7 +44,7 @@ Active Directory (AD) is Microsoft's directory service used to centrally manage 
 
 * Windows Server 2025 Build 26404 ARM64: For setting up the Domain Controller
 
-* Windows 11 VM: For testing GPOs
+* Windows 11 VM: For testing GPOs, Logging into users
 
 #### Setting up my VM
 
