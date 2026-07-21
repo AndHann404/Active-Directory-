@@ -372,7 +372,7 @@ Also, afterwards I had issue with the drive appearing, what I did was move my us
 # Modifying Folder access Activities
 
 
-### Scenerio 1
+### Scenario 1
 
 The Physicians group needs access to a shared folder called "Medical Records". They should being able to view, modify, and delete files.
 
@@ -388,7 +388,7 @@ The Physicians group needs access to a shared folder called "Medical Records". T
 
 
 
-### Scenerio 2
+### Scenario 2
 
 The HR Department needs access to a secure folder (called HR_Folder) that ONLY the HR staff can access. No one else should see the folder at all.
 
