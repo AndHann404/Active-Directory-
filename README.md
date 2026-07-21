@@ -10,6 +10,7 @@
 - [Domain Connection](#connecting-to-my-domain)
 - [Applying GPOs](#applying-gpos)
 - [Conclusion](#conclusion)
+- [Sources](#sources)
 
 ---
 ## Overview
@@ -368,10 +369,36 @@ Also, afterwards I had issue with the drive appearing, what I did was move my us
 <img width="786" height="579" alt="Network drive success" src="https://github.com/user-attachments/assets/62181b34-245e-4bcc-bcc3-045458de3b72" />
 
 
-# Creating A Service Account 
+# Modifying Folder access Activities
 
-A service account is a specialized, non-human identity used exclusively to run applications, background services, or automated tasks. Its not tied with any individual unike with "User Accounts" 
 
+### Scenerio 1
+
+The Physicians group needs access to a shared folder called "Medical Records". They should being able to view, modify, and delete files.
+
+<img width="787" height="592" alt="Creating Folder (Medical Records) " src="https://github.com/user-attachments/assets/83eb9dce-959a-46d5-9c2c-38682afe4bfc" />
+
+
+* Shared and NTFS Permissions:
+
+<img width="783" height="592" alt="Shared Permissions" src="https://github.com/user-attachments/assets/745a3077-957c-4b8d-a102-e9bd040ee0ca" />
+
+
+<img width="361" height="462" alt="NTFS Perms" src="https://github.com/user-attachments/assets/bf95ad4e-b497-448d-a2bd-44226b152494" />
+
+
+
+### Scenerio 2
+
+The HR Department needs access to a secure folder (called HR_Folder) that ONLY the HR staff can access. No one else should see the folder at all.
+
+<img width="976" height="660" alt="HR Only" src="https://github.com/user-attachments/assets/021492ae-115b-44d7-989a-2c5409e3215c" />
+
+*Making it only possible for the HR_department to see the folder (within share permissions)
+
+<img width="358" height="465" alt="NTFS HR_staff perms" src="https://github.com/user-attachments/assets/18ddb9f8-e6a9-4e1f-bcba-70380b0cc0e4" />
+
+* The NTFS perms for the staff (full control over the folder)
 
 
 
@@ -381,6 +408,12 @@ A service account is a specialized, non-human identity used exclusively to run a
 #### Conclusion
 
 This Active Directory Home Lab provides a hands-on demonstration of creating and managing a virtualized AD environment, equipping me with foundational skills essential for an IT Help Desk ot IT support role. By completing this Lab, I gained experience with user and group management, creating Group Policys,  Group Policy enforcement, and network troubleshooting within a domain environment.
+
+
+---
+#### Sources
+
+East Charmer Windows Server: https://www.youtube.com/playlist?list=PLAdEnQWAAbfXMY2D4HVZOe-ChfTKmaJfQ 
 
 
 
