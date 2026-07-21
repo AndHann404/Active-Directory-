@@ -14,9 +14,11 @@
 
 ---
 ## Overview
-This Homelab demonstrates the setup of a virtual Active Directory environment using VMware. This homelab also provides a detailed process, with screenshots, for building and configuring an AD setup, including creating organizational units, users, groups and more. Showcasing my understanding on of Active Directory, necessary for helpdesk/support roles in IT.
+This Homelab demonstrates the setup of a virtual Active Directory environment using VMware, providing a detailed process, with screenshots, for building and configuring an AD setup, including creating organizational units, users, groups and more. Showcasing my understanding on of Active Directory, necessary for helpdesk/support roles in IT.
 
 The goal of this project is to create a fully functional AD environment, simulating a real-world IT environment where users, groups, and policies can be managed. 
+
+I will also detail any issues I came across and doucment that solutions on here as well.
 
 ---
 ## Project Synopsis
@@ -58,11 +60,11 @@ Active Directory (AD) is Microsoft's directory service used to centrally manage 
 
 ---
 
-Troubleshooting:
+Troubleshooting VM:
 
 I Had issue when booting up the VM: When it started to boot, it ended up failing due to not find an "Operating System".
 
-The Fix: Selected the ISO image I was using in VMware setting.
+* The Fix: Selected the ISO image I was using in VMware setting.
 
 ---
 
@@ -112,7 +114,7 @@ Organizational Units (OUs) are container objects in Active Directory that allow 
 ---
 #### Creating Groups
 
-Groups in Active Directory is a collection of users or computer accounts managed as a single object. 
+Groups in Active Directory are a collection of users or computer accounts managed as a single object. 
 
 They are catorgized by two types:
 
@@ -222,7 +224,7 @@ Configured a Group Policy Object (GPO) to automatically apply a standardized des
 
 
 
-# Next, I checked to see if I could connect to the Domain via the command Line. Also checked if the DNS was working:
+# Next, I tested to see if I could connect to the Domain via the command Line. Also checked if the DNS was working:
 
 <img width="1014" height="642" alt="Pinging Domain Controller " src="https://github.com/user-attachments/assets/24077014-0db3-45bf-85b5-8ac449cd02eb" />
 
@@ -400,9 +402,7 @@ The HR Department needs access to a secure folder (called HR_Folder) that ONLY t
 
 <img width="358" height="465" alt="NTFS HR_staff perms" src="https://github.com/user-attachments/assets/18ddb9f8-e6a9-4e1f-bcba-70380b0cc0e4" />
 
-* The NTFS perms for the staff (full control over the folder)
-
-
+* The NTFS permissions for the staff (full control over the folder)
 
 
 
