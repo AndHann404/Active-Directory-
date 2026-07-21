@@ -40,9 +40,11 @@ Active Directory (AD) is Microsoft's directory service used to centrally manage 
 
 ## Lab Setup
 
-VMware Fusion: Installed and Configured
-Windows Server 2025 Build 26404 ARM64: For setting up the Domain Controller
-Windows 11 VM: For testing GPOs
+* VMware Fusion: Installed and Configured
+
+* Windows Server 2025 Build 26404 ARM64: For setting up the Domain Controller
+
+* Windows 11 VM: For testing GPOs
 
 #### Setting up my VM
 
