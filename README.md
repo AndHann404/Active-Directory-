@@ -273,7 +273,7 @@ When I created my users, I also created multiple groups. I added some of my crea
 
 * Eddie Rockmore is apart of "IT-Brooklyn" Group.
 
-* Update: I moved all of my created "users "into the "users OU" to apply the GPO correctly.
+UPDATE: I moved all of my created "users "into the "users OU" to apply the GPO correctly.
 
 <img width="752" height="527" alt="Groups" src="https://github.com/user-attachments/assets/973bd204-605c-494b-8cdd-810d4c6e424f" />
 
