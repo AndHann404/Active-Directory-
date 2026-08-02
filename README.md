@@ -18,12 +18,12 @@ This Homelab demonstrates the setup of a virtual Active Directory environment us
 
 The goal of this project is to create a fully functional AD environment, simulating a real-world IT environment where users, groups, and policies can be managed. 
 
-I will also detail any issues I came across and doucment that solutions on here as well.
+I will also detail any issues I came across and document that solutions on here as well.
 
 ---
 ## Project Synopsis
 
-This Active Directory homelab simulates a regional healthcare network consisting of three hospitals: Manhattan General Hospital, Brooklyn Medical Center, and Queens Children's Hospital. Each hospital contains its own Organizational Units for departments, users, computers, and servers to replicate a real-world enterprise Active Directory environment. The project is designed to practice common IT support and system administration tasks, including user management, Group Policy administration, domain management, and access control.
+This Active Directory Homelab simulates a regional healthcare network consisting of three Medical Centers: Manhattan Medical Center, Brooklyn Medical Center, and Queens Children's Center. Each center contains its own Organizational Units for departments, users, computers, and servers to replicate a real-world enterprise Active Directory environment. The project is designed to practice common IT support and system administration tasks, including user management, Group Policy administration, domain management, and access control.
 
 ---
 ## What is Active Directory
