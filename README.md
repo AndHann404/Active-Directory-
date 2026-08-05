@@ -10,6 +10,7 @@
 - [Domain Connection](#connecting-to-my-domain)
 - [Applying GPOs](#applying-gpos)
 - [Conclusion](#conclusion)
+- [Activities](#activities)
 - [Sources](#sources)
 
 ---
@@ -374,6 +375,8 @@ Also, afterwards I had issue with the drive appearing, what I did was move my us
 
 <img width="786" height="579" alt="Network drive success" src="https://github.com/user-attachments/assets/62181b34-245e-4bcc-bcc3-045458de3b72" />
 
+
+#### Activities:
 
 # Modifying Folder access Activities
 
