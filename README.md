@@ -483,15 +483,32 @@ A user has forgotten their password and requests an administrator to reset it an
 
 <img width="1088" height="670" alt="Screenshot 2026-08-05 at 12 08 57 PM" src="https://github.com/user-attachments/assets/a71d0cc1-58a9-4bf2-ba52-58d826dd7578" />
 
+---
 
+# Scenario 3
 
+A user’s account was previously disabled due to a security breach. The issue has now been resolved, and the user needs to regain access to their account. The user sees the following message on their screen:
+
+<img width="1096" height="665" alt="Disabled Account MSG" src="https://github.com/user-attachments/assets/7c663412-6a09-45d5-abee-86f4b99d31ab" />
+
+---
+
+# Go to "Active Directory users and computers", find the user and right click on the users name. The click on "Enable Account"
+
+<img width="750" height="529" alt="Enable Proccess" src="https://github.com/user-attachments/assets/81888149-3fd0-45f2-b250-00b12fbbe017" />
+
+---
+
+# Account is now Enabled!
+
+<img width="748" height="526" alt="Account Enabled" src="https://github.com/user-attachments/assets/3a448a28-85f5-4c7f-9749-c8676d36884f" />
 
 
 
 ---
 #### Conclusion
 
-This Active Directory Home Lab provides a hands-on demonstration of creating and managing a virtualized AD environment, equipping me with foundational skills essential for an IT Help Desk ot IT support role. By completing this Lab, I gained experience with user and group management, creating Group Policys,  Group Policy enforcement, and network troubleshooting within a domain environment.
+This Active Directory Home Lab provides a hands-on demonstration of creating and managing a virtualized AD environment, equipping me with foundational skills essential for an IT Help Desk ot IT support role. By completing this Lab, I gained experience with user and group management, creating Group Policies,  Group Policy enforcement, and network troubleshooting within a domain environment.
 
 
 ---
