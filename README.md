@@ -411,7 +411,7 @@ The HR Department needs access to a secure folder (called HR_Folder) that ONLY t
 
 # Active Directory Troubleshooting
 
-Scenario 1
+### Scenario 1
 
 A user has entered an incorrect password three times, exceeding the account lockout threshold policy. The user is locked out and needs an administrator to unlock their account. The user sees the following message on their screen:
 
@@ -444,6 +444,44 @@ A user has entered an incorrect password three times, exceeding the account lock
 
 
 <img width="1099" height="668" alt="account unlocked" src="https://github.com/user-attachments/assets/a84f4cec-d36b-41aa-a9bd-a554642ca58a" />
+
+
+### Scenario 2
+
+A user has forgotten their password and requests an administrator to reset it and restore access.
+
+---
+
+# Go to "Active Directory Users and Computers"
+
+<img width="975" height="618" alt="ADUC" src="https://github.com/user-attachments/assets/3711c6bd-d9a6-482f-9b44-9a36ca99691c" />
+
+---
+
+# Search the directory for the user account. Right-click on the user account and select Reset Password:
+
+
+<img width="978" height="708" alt="Reset PW" src="https://github.com/user-attachments/assets/bf5b35e7-298b-442c-ae70-8f86fd2d0a83" />
+
+---
+
+# Check off the option to require the user to set a new password at the next logon. And you'll see the PW has been changed: 
+
+<img width="757" height="620" alt="Enter in New PW" src="https://github.com/user-attachments/assets/74a64014-e771-47f0-a51c-d623b3251633" />
+
+<img width="975" height="619" alt="PW Changed" src="https://github.com/user-attachments/assets/95bcfaf5-6d03-4af8-840e-0ad682216e83" />
+
+
+# Once Logging back in, the user should see the following message after entering the password provided by the administrator. Once changed the user will be able to log in:
+
+
+<img width="1096" height="663" alt="Must Change MSG" src="https://github.com/user-attachments/assets/c49f52d6-64fe-4ecb-9009-98d62e8bcf28" />
+
+<img width="1091" height="707" alt="Screenshot 2026-08-05 at 11 54 59 AM" src="https://github.com/user-attachments/assets/ac1eb0c7-a20e-4d35-aa87-2d61dec79775" />
+
+
+<img width="1088" height="670" alt="Screenshot 2026-08-05 at 12 08 57 PM" src="https://github.com/user-attachments/assets/a71d0cc1-58a9-4bf2-ba52-58d826dd7578" />
+
 
 
 
