@@ -445,6 +445,7 @@ A user has entered an incorrect password three times, exceeding the account lock
 
 <img width="1099" height="668" alt="account unlocked" src="https://github.com/user-attachments/assets/a84f4cec-d36b-41aa-a9bd-a554642ca58a" />
 
+---
 
 ### Scenario 2
 
