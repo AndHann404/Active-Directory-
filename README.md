@@ -409,6 +409,42 @@ The HR Department needs access to a secure folder (called HR_Folder) that ONLY t
 
 * The NTFS permissions for the staff (full control over the folder)
 
+# Active Directory Troubleshooting
+
+Scenario 1
+
+A user has entered an incorrect password three times, exceeding the account lockout threshold policy. The user is locked out and needs an administrator to unlock their account. The user sees the following message on their screen:
+
+<img width="1095" height="667" alt="Account Locked" src="https://github.com/user-attachments/assets/6f7e9b8b-2e3d-4fdf-a442-3796e6af9add" />
+
+
+To unlock the user account, log in to Windows Server. Open Active Directory Users and Computers from the taskbar:
+
+<img width="975" height="618" alt="ADUC" src="https://github.com/user-attachments/assets/2fceb4d0-e24b-49b1-bc8d-d1e2d2a77826" />
+
+
+Right-click your domain name and select Find. Afterwards, type in the "Locked Account" name and double click the user: 
+
+<img width="751" height="531" alt="Find " src="https://github.com/user-attachments/assets/8d125cbb-c173-4176-92e2-34cc4d8dfeb5" />
+
+<img width="977" height="637" alt="Find the user" src="https://github.com/user-attachments/assets/ab5192ed-b3a7-4922-b218-d20a682e5a71" />
+
+
+
+Select "Account" and check the box to unlock the user’s account. Then click Apply and OK to save the changes:
+
+
+<img width="755" height="630" alt="Unlocking the Account" src="https://github.com/user-attachments/assets/e3f15c6c-922e-45e5-9162-0ff09830166d" />
+
+
+
+The users account is now "Unlocked"
+
+
+<img width="1099" height="668" alt="account unlocked" src="https://github.com/user-attachments/assets/a84f4cec-d36b-41aa-a9bd-a554642ca58a" />
+
+
+
 
 
 ---
