@@ -9,8 +9,8 @@
 - [Group Policies](#creating-group-policies)
 - [Domain Connection](#connecting-to-my-domain)
 - [Applying GPOs](#applying-gpos)
-- [Conclusion](#conclusion)
 - [Activities](#activities)
+- [Conclusion](#conclusion)
 - [Sources](#sources)
 
 ---
