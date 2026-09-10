@@ -536,6 +536,7 @@ My Custom Inbound Rule:
 
 
 <img width="711" height="566" alt="name of firewall" src="https://github.com/user-attachments/assets/9fbe80f5-f33f-47aa-92fc-31500310f8d7" />
+
 *The name later changed to "Block-FTP and Telnet"
 
 
@@ -545,10 +546,27 @@ My Custom Inbound Rule:
 
 
 <img width="974" height="604" alt="Forced update" src="https://github.com/user-attachments/assets/90ac9501-0bbd-4dfa-bb6e-89f0cd32aa76" />
+
 *Updated the GPO 
 
 
-#### This resulted in the rule NOT BEING APPLIED, because I linked the GPO to OU's that contained users. However this was a "COMPUTER CONFIGURATION" not a "USER CONFIGURATION", meaning in order for the policy to be applied I needed to link it to where my "Computer" object was.
+
+#### MAJOR MISTAKE
+
+This resulted in the rule NOT BEING APPLIED, because I linked the GPO to OU's that contained users. However this was a "COMPUTER CONFIGURATION" not a "USER CONFIGURATION", meaning in order for the policy to be applied I needed to link it to where my "Computer" object was.
+
+Troubleshooting:
+
+To fix this issue, I first unlinked the GPO's from each of OU's that contained my Domain Users. Afterwards Linked the GPO to OU that contained my 
+"Computer" object
+
+<img width="298" height="507" alt="Moved GPO" src="https://github.com/user-attachments/assets/a54fe22d-ee60-4c8a-8320-816d05ab480a" />
+
+
+This resulted in the GPO being applied properly. To check this I went into the Command Line and ran "gpresult /scope computer /r" and got this result:
+
+<img width="1495" height="900" alt="Scope" src="https://github.com/user-attachments/assets/6a03d2b2-2db1-4080-8ff2-5e25a79e6c00" />
+
 
 
 
