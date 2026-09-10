@@ -505,6 +505,27 @@ A user’s account was previously disabled due to a security breach. The issue h
 
 
 
+### Creating and Applying Firewall GPO
+
+In this activity, I created a Firewall GPO on Active Directory with custom rules that blocked three unsecure ports (TCP 20, 21, and 23).
+
+<img width="819" height="521" alt="Creating GPO" src="https://github.com/user-attachments/assets/65049701-24e2-4189-9c3f-73c379073de3" />
+
+
+<img width="399" height="457" alt="Domain Profile" src="https://github.com/user-attachments/assets/6f6ae3bb-b50a-4b77-b962-48ebed1f29d2" />
+
+*The Domain, Public and Private profiles set up the exact same way
+
+<img width="425" height="467" alt="Settings for Domain Profile" src="https://github.com/user-attachments/assets/c6cd97da-2bec-4ae2-afd0-1777e6c0970e" />
+
+*The settings for the Domain, Public and Private profiles are set up the exact same way
+
+
+<img width="677" height="337" alt="Standard Firewall Rules" src="https://github.com/user-attachments/assets/f0cdbb23-d1fd-46d3-bfd8-b1647466b1e7" />
+
+
+
+
 ---
 #### Conclusion
 
