@@ -568,6 +568,10 @@ This resulted in the GPO being applied properly. To check this I went into the C
 <img width="1495" height="900" alt="Scope" src="https://github.com/user-attachments/assets/6a03d2b2-2db1-4080-8ff2-5e25a79e6c00" />
 
 
+Aftermath:
+
+<img width="847" height="575" alt="Rule applied" src="https://github.com/user-attachments/assets/5a5fa0f7-3006-4018-ae09-53d9862846b2" />
+
 
 
 ---
