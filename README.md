@@ -524,6 +524,32 @@ In this activity, I created a Firewall GPO on Active Directory with custom rules
 <img width="677" height="337" alt="Standard Firewall Rules" src="https://github.com/user-attachments/assets/f0cdbb23-d1fd-46d3-bfd8-b1647466b1e7" />
 
 
+My Custom Inbound Rule: 
+
+<img width="711" height="534" alt="Rule Type" src="https://github.com/user-attachments/assets/fe8f5f86-2fa4-404a-9451-13a76b9b1e24" />
+
+
+<img width="713" height="531" alt="ports" src="https://github.com/user-attachments/assets/b85fbfc9-e74e-4b8c-905a-46d88d7ab71d" />
+
+
+<img width="712" height="526" alt="Blocking" src="https://github.com/user-attachments/assets/404d5c0f-1b60-4820-af65-6d40f544d55a" />
+
+
+<img width="711" height="566" alt="name of firewall" src="https://github.com/user-attachments/assets/9fbe80f5-f33f-47aa-92fc-31500310f8d7" />
+*The name later changed to "Block-FTP and Telnet"
+
+
+<img width="818" height="577" alt="Attached GPO" src="https://github.com/user-attachments/assets/865347c5-c890-4f6f-854a-29b1e23f4e2a" />
+
+*Linked the GPO to each OU that had users
+
+
+<img width="974" height="604" alt="Forced update" src="https://github.com/user-attachments/assets/90ac9501-0bbd-4dfa-bb6e-89f0cd32aa76" />
+*Updated the GPO 
+
+
+## This resulted in the rule NOT BEING APPLIED, because I linked the GPO to OU's that contained users. However this was a "COMPUTER CONFIGURATION" not a "USER CONFIGURATION", meaning in order for the policy to be applied I needed to link it to where my "Computer" object was.
+
 
 
 ---
