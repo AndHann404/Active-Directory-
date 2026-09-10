@@ -548,7 +548,7 @@ My Custom Inbound Rule:
 *Updated the GPO 
 
 
-## This resulted in the rule NOT BEING APPLIED, because I linked the GPO to OU's that contained users. However this was a "COMPUTER CONFIGURATION" not a "USER CONFIGURATION", meaning in order for the policy to be applied I needed to link it to where my "Computer" object was.
+#### This resulted in the rule NOT BEING APPLIED, because I linked the GPO to OU's that contained users. However this was a "COMPUTER CONFIGURATION" not a "USER CONFIGURATION", meaning in order for the policy to be applied I needed to link it to where my "Computer" object was.
 
 
 
